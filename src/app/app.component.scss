@@ -1,0 +1,22 @@
+p {
+  font-family: Lato;
+}
+  ::ng-deep {
+    input[type="checkbox"] {
+        margin: 0 4px 0 0;
+        padding: 0;
+        &:disabled {
+          &:before {
+            position: relative;
+            display: block;
+            width: 16px;
+            height: 16px;
+            border: 0.09em solid #cecece;
+            content: "";
+            background: #eaeaea;
+            border-radius: 3px;
+          }
+        }
+    }
+  }
+  
